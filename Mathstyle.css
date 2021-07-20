@@ -1,0 +1,86 @@
+#container{
+border:1px solid gray;
+width: 80%;
+margin: 0px auto;
+}
+#header{
+    height:100px;
+padding:10px 0px;
+}
+
+
+h1 a{
+font-size:50px;
+font-weight: 100;
+color:#8618bf;
+text-decoration:none;
+}
+#searchbox{
+    float: right;
+    background:linear-gradient(#E4F2B9, #B7E953);
+    width:400px;
+    height:50px;
+    padding:10px 10px 0px 10px;
+    margin:14px 14px;
+
+
+
+}
+#brandname{
+    float: left;
+} 
+.text{
+float: left;
+width:200px;
+padding: 5px;
+font-size: 15px;
+color:orange;
+background:white url(./Images/icons8-search-30.png) right center no-repeat;
+}
+.submit{
+    background-color: #8618bf;
+    float:right;
+    width:120px;
+    padding: 5px;
+    font-size: 15px;
+    color:white;
+    font-weight:bold;
+    font-size:15px;
+
+}
+.clear{
+clear: Both;
+
+}
+#menu{
+height:70px;
+background: linear-gradient(#E8E46E, #B3E283);
+padding:7px 0;
+}
+#menu ul li {
+float: left;
+padding:0 30px;
+height:30px;
+border-right:1px solid #5d1e7c;
+
+}
+.list{
+list-style: none;
+}
+#menu ul li a{
+text-decoration:none;
+text-transform: uppercase;
+font-size: 17px;
+color:#5d1e7c;
+font-size: 14px;
+transition: font-size 0.5s ease;
+}
+#menu ul li:last-child{
+border-right: none;
+
+}
+#menu ul li a:hover, #menu ul li a.active {
+font-size: 17px;
+font-weight: bold;
+color: #093eee;
+}
